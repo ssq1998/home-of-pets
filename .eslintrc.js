@@ -1,0 +1,60 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true
+  },
+  extends: [
+    'plugin:vue/essential',
+    '@vue/standard'
+  ],
+  parserOptions: {
+    parser: 'babel-eslint'
+  },
+  rules: {
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'space-before-function-paren': 'off',
+    'no-irregular-whitespace': 'off',
+    'vue/no-parsing-error': [2, { 'x-invalid-end-tag': false }],
+    'quotes': 'off',
+    'comma-spacing': 'off',
+    'object-curly-spacing': 'off',
+    'key-spacing': 'off',
+    'no-undef': 'off',
+    'no-use-before-define': 'off',
+    'space-infix-ops': 'off',
+    'semi-spacing': 'off',
+    'block-spacing': 'off',
+    'one-var': 'off',
+    'no-unused-vars': 'off',
+    'no-unused-expressions': 'off',
+    'wrap-iife': 'off',
+    'space-before-blocks': 'off',
+    'yoda': 'off',
+    'no-useless-escape': 'off',
+    'no-sequences': 'off',
+    'semi': 'off',
+    'keyword-spacing': 'off',
+    'eol-last': 'off',
+    'no-return-assign': 'off',
+    'no-mixed-operators': 'off',
+    'eqeqeq': 'off',
+    'no-prototype-builtins': 'off',
+    'space-unary-ops': 'off',
+    'no-redeclare': 'off',
+    'no-void': 'off',
+    'dot-notation': 'off',
+    'no-new-func': 'off',
+    'new-cap': 'off',
+    'no-cond-assign': 'off',
+    'new-parens': 'off',
+    'no-self-compare': 'off',
+    'valid-typeof': 'off',
+    'no-useless-call': 'off',
+    'no-control-regex': 'off',
+    'no-unmodified-loop-condition': 'off',
+    'quote-props': 'off',
+    'no-misleading-character-class': 'off',
+    'standard/no-callback-literal': 'off'
+  }
+}
