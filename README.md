@@ -1,4 +1,4 @@
-# homeofpets
+# home-of-pets-client
 
 ## Project setup
 ```
